@@ -6,12 +6,15 @@ As part of my process, I used several notebooks. Here is a table of contents for
     - This is the notebook that contains the process of building the linear model
 
 * Whittle 3 Holdout
-    - This is the notebook that shows the model being predicted on the holdout data set
+    - This is the notebook that shows the model being predicted on the holdout data set, using the model 
+      that was learned in Whittle 3. 
     
 * Zip Codes and Median Salaries
     - In this notebook I used external data about zip codes in Portland, including income and population info.
       I imputed the income and population when the zip codes didn't match up with the training data set. 
 
+* Zip Codes Dummy Out
+    - In this notebook I dummy out the zip codes
 
 * Test Train Split With Polynomials - And Using Wrapper to Whittle
     - This is the notebook that shows the Root Mean Square Error getting smaller. The final model is pickled here to be used on 
