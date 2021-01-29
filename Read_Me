@@ -1,0 +1,36 @@
+This linear regression modeling project using information about houses sold in Seattle from the the last decade.
+
+As part of my process, I used several notebooks. Here is a table of contents for these notebooks: 
+
+* Test Train Split With Polynomials - And Using Wrapper to Whittle
+    - This is the notebook that shows the Root Mean Square Error getting smaller. The final model is pickled here to be used on 
+      the holdout data. 
+
+* The Holdout Data
+    - This notebook contains the holdout data with code for it to have the same features as my training set. 
+      My final model fitted on the holdout data. There's an array of predictions for the house price.
+
+* Statistical Test
+    - This notebook contains two-sample t-tests performed on a categorical variable known as a condition. 
+      The categorical variable could have taken five values. I used five t-tests to reject or accept 
+      a null hypothesis where the set of houses with a particular condition rating, had the same mean price
+      as a set of houses with all the other condition ratings. The unexpected statistical conclusion rejected
+      the null hypothesis for condition rating number three. 
+
+* Dummy Creation
+    - This notebook contains code for making dummy variables.
+
+* Filter Variables on Correlation Coefficient
+    - This notebook uses a visual approach to identifyl multi-collinearity amongst the numerous independant variables
+    in the starting data set before any polynomial interactives feature engineering. It in fact didn't impact the model.
+
+* Part 4.4,  4.5
+    - This notebook I created an interactive feature manually that increased the percentage of data predicted.
+    This interactive feature eneded up being kept and created automatically anyway by Sci-Kit learn.
+
+* Step 4.1, 4.2, 4.3
+    - This notebook is an example of feature re-engineering to turn features that have a year as a value
+    into a number of years away from the present.
+
+* Step 2 Exploratory Data Analysis
+    - This notebook contains scatter plots of the dependant variables.
